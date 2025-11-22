@@ -77,7 +77,7 @@ class ProfileScreen extends StatelessWidget {
           ),
           SizedBox(height: 20),
           
-          if (selectedProfile != null) ...,[
+          if (selectedProfile != null) ...[
             Stack(
               children: [
                 ProfileAvatar(
